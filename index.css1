@@ -1,0 +1,181 @@
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~
+$ git clone https://github.com/BrandonSamaroo/Quizle.git
+Cloning into 'Quizle'...
+remote: Enumerating objects: 666, done.
+remote: Counting objects: 100% (666/666), done.
+remote: Compressing objects: 100% (244/244), done.
+remote: Total 666 (delta 387), reused 657 (delta 379), pack-reused 0
+Receiving objects: 100% (666/666), 267.30 KiB | 3.18 MiB/s, done.
+Resolving deltas: 100% (387/387), done.
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~
+$ ls -la
+total 14503
+-rw-r--r-- 1 owner 197121    7144 Jul 24  2021  -1.14-windows.xml
+drwxr-xr-x 1 owner 197121       0 Apr  7 19:44  ./
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:19  ../
+drwxr-xr-x 1 owner 197121       0 Jul  6  2021  .android/
+-rw-r--r-- 1 owner 197121     264 Apr  7 19:42  .bash_history
+drwxr-xr-x 1 owner 197121       0 Apr 19  2021 '3D Objects'/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:19  AppData/
+lrwxrwxrwx 1 owner 197121      30 Jan 30 13:19 'Application Data' -> /c/Users/owner/AppData/Roaming/
+-rw-r--r-- 1 owner 197121     151 Aug 18  2021  BullseyeCoverageError.txt
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Contacts/
+lrwxrwxrwx 1 owner 197121      58 Jan 30 13:19  Cookies -> /c/Users/owner/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 owner 197121       0 Apr  6 22:40  Desktop/
+drwxr-xr-x 1 owner 197121       0 Mar 18 08:49  Documents/
+drwxr-xr-x 1 owner 197121       0 Apr  7 19:34  Downloads/
+drwxr-xr-x 1 owner 197121       0 Feb  6 01:14  Favorites/
+-rw-r--r-- 1 owner 197121   38995 Jul  5  2021 'Geek Squad Setup Guide.pdf'
+drwxr-xr-x 1 owner 197121       0 Apr  6 20:16  IntelGraphicsProfiles/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Links/
+lrwxrwxrwx 1 owner 197121      28 Jan 30 13:19 'Local Settings' -> /c/Users/owner/AppData/Local/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Music/
+lrwxrwxrwx 1 owner 197121      24 Jan 30 13:19 'My Documents' -> /c/Users/owner/Documents/
+-rw-r--r-- 1 owner 197121 8912896 Mar 11 19:19  NTUSER.DAT
+-rw-r--r-- 1 owner 197121   65536 Jan 30 13:19  NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TM.blf
+-rw-r--r-- 1 owner 197121  524288 Jan 30 13:19  NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 owner 197121  524288 Jan 30 13:19  NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 owner 197121      66 Jan 30 13:19  NetHood -> '/c/Users/owner/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 owner 197121       0 Aug  8  2021  OneDrive/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Pictures/
+lrwxrwxrwx 1 owner 197121      66 Jan 30 13:19  PrintHood -> '/c/Users/owner/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+drwxr-xr-x 1 owner 197121       0 Apr  7 19:44  Quizle/
+lrwxrwxrwx 1 owner 197121      55 Jan 30 13:19  Recent -> /c/Users/owner/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28 'Saved Games'/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Searches/
+lrwxrwxrwx 1 owner 197121      55 Jan 30 13:19  SendTo -> /c/Users/owner/AppData/Roaming/Microsoft/Windows/SendTo/
+lrwxrwxrwx 1 owner 197121      59 Jan 30 13:19 'Start Menu' -> '/c/Users/owner/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 owner 197121      58 Jan 30 13:19  Templates -> /c/Users/owner/AppData/Roaming/Microsoft/Windows/Templates/
+drwxr-xr-x 1 owner 197121       0 Jan 30 13:28  Videos/
+-rw-r--r-- 1 owner 197121 2271232 Jan 30 13:19  ntuser.dat.LOG1
+-rw-r--r-- 1 owner 197121 2318336 Jan 30 13:19  ntuser.dat.LOG2
+-rw-r--r-- 1 owner 197121      20 Jan 30 13:28  ntuser.ini
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~
+$ dir
+-1.14-windows.xml          Cookies                        IntelGraphicsProfiles  NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TM.blf                                       PrintHood     Start\ Menu
+3D\ Objects                Desktop                        Links                  NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TMContainer00000000000000000001.regtrans-ms  Quizle        Templates
+AppData                    Documents                      Local\ Settings        NTUSER.DAT{225e745a-81f9-11ec-a545-70cf493489e7}.TMContainer00000000000000000002.regtrans-ms  Recent        Videos
+Application\ Data          Downloads                      Music                  NetHood                                                                                       Saved\ Games  ntuser.dat.LOG1
+BullseyeCoverageError.txt  Favorites                      My\ Documents          OneDrive                                                                                      Searches      ntuser.dat.LOG2
+Contacts                   Geek\ Squad\ Setup\ Guide.pdf  NTUSER.DAT             Pictures                                                                                      SendTo        ntuser.ini
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~
+$ git clone ~https://github.com/BrandonSamaroo/Quizle~
+Cloning into 'Quizle~'...
+fatal: protocol '~https' is not supported
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~
+$ cd quizle
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ ls -la
+total 22
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:44 ./
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:48 ../
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:44 .git/
+-rw-r--r-- 1 owner 197121 520 Apr  7 19:44 .gitignore
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:44 main_app/
+-rwxr-xr-x 1 owner 197121 684 Apr  7 19:44 manage.py*
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:44 media/
+drwxr-xr-x 1 owner 197121   0 Apr  7 19:44 quizle/
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ cat READ.md
+cat: READ.md: No such file or directory
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ cat README.md
+cat: README.md: No such file or directory
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ cat manage.py
+#!/usr/bin/env python
+"""Django's command-line utility for administrative tasks."""
+import os
+import sys
+
+
+def main():
+    """Run administrative tasks."""
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'quizle.settings')
+    try:
+        from django.core.management import execute_from_command_line
+    except ImportError as exc:
+        raise ImportError(
+            "Couldn't import Django. Are you sure it's installed and "
+            "available on your PYTHONPATH environment variable? Did you "
+            "forget to activate a virtual environment?"
+        ) from exc
+    execute_from_command_line(sys.argv)
+
+
+if __name__ == '__main__':
+    main()
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ pwd
+/c/Users/owner/quizle
+
+owner@LAPTOP-CLV34AM8 MINGW64 ~/quizle (main)
+$ git log
+commit c2e44a99818762835a4d6745a37bd2ebb38a1d2e (HEAD -> main, origin/main, origin/HEAD)
+Merge: cbe3591 d89f61b
+Author: Brandon Samaroo <58535568+BrandonSamaroo@users.noreply.github.com>
+Date:   Thu Apr 7 17:40:36 2022 -0400
+
+    Merge pull request #18 from BrandonSamaroo/salman
+
+    profile edit page done
+
+commit d89f61b78e1e314855c4d8d3b454c94ed10bc2b1
+Author: Salman Ghauri <salmanghauri@hotmail.com>
+Date:   Thu Apr 7 17:40:07 2022 -0400
+
+    profile edit page done
+
+commit cbe3591445eaa21bdae7589477197ebb0785d43f
+Merge: c08a77b d8cf2aa
+Author: Brandon Samaroo <samaroo.bran@gmail.com>
+Date:   Thu Apr 7 17:35:36 2022 -0400
+
+    Merge branch 'salman'
+
+commit d8cf2aa0e01a55cd9213d1613b5625a7a2b9e344
+Merge: 905b605 c08a77b
+Author: Brandon Samaroo <samaroo.bran@gmail.com>
+Date:   Thu Apr 7 17:35:28 2022 -0400
+
+    salman changes
+
+commit 905b605f5121a0cd262b8a296521389879af3fd8
+Author: Salman Ghauri <salmanghauri@hotmail.com>
+Date:   Thu Apr 7 17:34:14 2022 -0400
+
+    pycachegone
+
+commit 755ae1c3f321dee3b0466e9921aead4e94ceca31
+Author: Salman Ghauri <salmanghauri@hotmail.com>
+Date:   Thu Apr 7 17:31:03 2022 -0400
+
+    profile edit page
+
+commit c08a77bfc440c8dafe558ac1a0d2989139ea4baf
+Merge: 0ba2821 ebb4f61
+Author: Brandon Samaroo <samaroo.bran@gmail.com>
+Date:   Thu Apr 7 17:28:50 2022 -0400
+
+    Merge branch 'main' of github.com:BrandonSamaroo/Quizle
+
+commit 0ba2821283f01dbc9a52aadd684da2f2d8e612ee
+Author: Brandon Samaroo <samaroo.bran@gmail.com>
+Date:   Thu Apr 7 17:28:40 2022 -0400
+
+    css fixes
+
+commit ebb4f61ec11d08066d034294741f696deec6fdd8
+Author: Ali Anjum <iianjum@hotmail.com>
+Date:   Thu Apr 7 16:40:46 2022 -0400
+:
